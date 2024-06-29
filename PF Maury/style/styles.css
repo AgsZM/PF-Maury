@@ -1,0 +1,146 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #495057;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+  }
+  
+  
+  header {
+    background: linear-gradient(to right, #007bff, #0056b3);
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  footer {
+    background: #6c757d;
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  .navbar {
+    background-color: #007bff;
+    margin-bottom: 2rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .navbar-nav .nav-item {
+    margin-right: 1rem;
+  }
+  
+  .navbar-nav .nav-item a {
+    color: white;
+  }
+  
+  .navbar-nav .nav-item a:hover {
+    color: #f8f9fa;
+  }
+  
+
+  .container {
+    max-width: 960px;
+    margin: auto;
+    padding: 1rem;
+  }
+  
+ 
+  .jumbotron {
+    background: url('../images/argentina-banner.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 10rem 0;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  
+  .jumbotron h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .jumbotron p {
+    font-size: 1.5rem;
+  }
+  
+ 
+  form .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  form label {
+    font-weight: bold;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    transition: all 0.3s;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+  
+  form button:hover {
+    background: #0056b3;
+  }
+  
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  .flora-page h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .flora-page .row {
+    margin-bottom: 2rem;
+  }
+  
+  .flora-page .col-md-6 h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .flora-page .col-md-6 p {
+    margin-bottom: 1rem;
+  }
+  

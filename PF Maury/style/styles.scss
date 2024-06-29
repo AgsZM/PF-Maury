@@ -1,0 +1,62 @@
+
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+
+@mixin transition($property, $duration) {
+  transition: $property $duration;
+}
+
+
+body {
+  font-family: $font-family-base;
+  line-height: 1.6;
+}
+
+header {
+  background: $primary-color;
+  color: white;
+  padding: 2rem 0;
+}
+
+footer {
+  background: $secondary-color;
+  color: white;
+  padding: 1rem 0;
+}
+
+
+.navbar {
+  margin-bottom: 2rem;
+}
+
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 1rem;
+}
+
+
+form {
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  label {
+    font-weight: bold;
+  }
+  input, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  button {
+    @include transition(all, 0.3s);
+    &:hover {
+      background: darken($primary-color, 10%);
+    }
+  }
+}
